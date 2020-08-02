@@ -1,0 +1,62 @@
+# project specific
+cmd/experimental/
+out/
+
+# common sense
+*.log
+*.out
+
+# dbs
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
+# binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# ide
+.vscode/
+.idea/
+
+# env files
+.env.*
+
+# os
+.Trash-*
+.DS_Store
+.AppleDouble
+.LSOverride
+.nfs*
+.fuse_hidden*
+.directory
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# data
+*.csv
+*.dat
+*.efx
+*.gbr
+*.key
+*.pps
+*.ppt
+*.pptx
+*.sdf
+*.tax2010
+*.vcf
+*.xml
+
+# you never know
+node_modules/
