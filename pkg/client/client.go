@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"fmt"
 	"net/http"
+	"net/url"
 
 	"github.com/cpl/go-w3w/pkg/w3w"
 )
@@ -23,6 +24,7 @@ func New(key string) *Client {
 }
 
 func (c *Client) ConvertToCoordinates(address string) (*w3w.ResponseConvert, error) {
+	address=url.QueryEscape(address)
 	req, err := c.newRequest(
 		http.MethodGet,
 		"convert-to-coordinates?words="+address, nil)
