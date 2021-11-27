@@ -12,14 +12,12 @@ const EndpointDefault = "https://api.what3words.com/v3/"
 
 type Client struct {
 	Endpoint string
-	Language string
 	key      string
 }
 
 func New(key string) *Client {
 	return &Client{
 		key:      key,
-		Language: "en",
 		Endpoint: EndpointDefault,
 	}
 }

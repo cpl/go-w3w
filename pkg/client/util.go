@@ -35,7 +35,6 @@ func (c *Client) newRequest(method, url string, body io.Reader) (*http.Request, 
 		return nil, fmt.Errorf("failed creating new client request, %w", err)
 	}
 
-	req.URL.Query().Add("language", c.Language)
 	req.Header.Set(HeaderAPIKey, c.key)
 
 	return req, nil
