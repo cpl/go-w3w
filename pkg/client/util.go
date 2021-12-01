@@ -6,7 +6,7 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/cpl/go-w3w/pkg/w3w"
+	"github.com/eljoth/go-w3w/pkg/w3w"
 )
 
 const HeaderAPIKey = "X-Api-Key"

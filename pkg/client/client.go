@@ -6,7 +6,7 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/cpl/go-w3w/pkg/w3w"
+	"github.com/eljoth/go-w3w/pkg/w3w"
 )
 
 const EndpointDefault = "https://api.what3words.com/v3/"

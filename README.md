@@ -7,7 +7,7 @@ Unofficial client for interacting with [What3Words](https://what3words.com/) [AP
 Go 1.13+ required. To start off get the package using `go get` or add it to your `go.mod`.
 
 ```bash
-go get github.com/cpl/go-w3w
+go get github.com/eljoth/go-w3w
 ```
 
 Then simply create a client and use the methods.
@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cpl/go-w3w/pkg/client"
+	"github.com/eljoth/go-w3w/pkg/client"
 )
 
 var address = "filled.count.soap"

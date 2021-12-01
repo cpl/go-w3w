@@ -1,3 +1,3 @@
-module github.com/cpl/go-w3w
+module github.com/eljoth/go-w3w
 
-go 1.14
+go 1.17
